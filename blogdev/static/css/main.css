@@ -1,7 +1,13 @@
-*{
-    margin: 0;
-}
-.navbar{
-    display: flex;
+.navigation-bar{
     background-color: cadetblue;
+}
+
+h3 {
+    font-size: 58px;
+    color:red;
+}
+
+img {
+    width: 250px;
+    height: 250px;
 }

@@ -1,4 +1,4 @@
 {% extends "base.html" %}
 {% block content %}
-  <p>{{post.body}}</p>
+  <p>{{post.body.html | safe}}</p>
 {% endblock content %}
