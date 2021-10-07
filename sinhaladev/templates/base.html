@@ -21,6 +21,12 @@
             <li>about</li>
             <li>contact</li>
         </ul>
+    <form method="POST" action="{% url 'blogdev:search' %}">
+        {% csrf_token %}
+        <input type="search" name="query">
+        <button type="submit">Search</button>
+    </form>
+  
     </nav>
 
     <div class="container">

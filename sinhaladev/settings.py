@@ -35,7 +35,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django_quill',
-   
+    'taggit',
     'blogdev.apps.BlogdevConfig',
     'django.contrib.admin',
     'django.contrib.auth',

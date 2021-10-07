@@ -1,4 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+<h3>{{post.tags.all}}</h3>
   <p>{{post.body.html | safe}}</p>
+  <p>{{post.tags.all|join:', '}}</p>
 {% endblock content %}
