@@ -2,12 +2,21 @@
     background-color: cadetblue;
 }
 
-h3 {
-    font-size: 58px;
-    color:red;
+.navigation-bar ul {
+    border: 2x solid #e7e7e8;
+    text-decoration: none;
 }
 
-img {
-    width: 250px;
-    height: 250px;
+.navigation-bar li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h3 a{
+text-decoration: none;    
+}
+
+.postcontainer{
+    display: block;
+    background-color: cadetblue;
 }
