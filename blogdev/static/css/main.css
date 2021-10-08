@@ -1,22 +1,32 @@
-.navigation-bar{
-    background-color: cadetblue;
-}
 
-.navigation-bar ul {
-    border: 2x solid #e7e7e8;
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    background-color:#dae0da;
+}
+.nav-container a{
     text-decoration: none;
 }
+.nav-links{
+    display: flex;
+  
+   
+}
 
-.navigation-bar li{
-    text-decoration: none;
+.nav-list{
     list-style-type: none;
+    
 }
 
-h3 a{
-text-decoration: none;    
-}
 
-.postcontainer{
-    display: block;
-    background-color: cadetblue;
-}
+  .postImage{
+      width: 250px;
+      height: 250px;
+  }
+
+  .aboutPost li{
+      display: inline;
+  }

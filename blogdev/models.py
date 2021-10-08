@@ -17,6 +17,7 @@ class Post(models.Model):
     modified_at = models.DateTimeField(auto_now=True)
     category = models.ForeignKey(Category, on_delete=CASCADE)
     tags = TaggableManager()
+    cover_image = models.ImageField(upload_to='images/', null=True)
 
     def __str__(self):
         return self.title
